@@ -1,0 +1,13 @@
+{
+  "protocol_id": "xuanji-env-qual",
+  "version": 3,
+  "title": "璇玑系统深水高温高压环境鉴定试验",
+  "capabilities": ["water_depth", "temperature", "pressure", "phase", "environment"],
+  "required_demonstration": {
+    "water_depth": {"max_water_depth_m": "3000"},
+    "temperature": {"min_temperature_c": "-20", "max_temperature_c": "150"},
+    "pressure": {"max_pressure_mpa": "140"},
+    "phase": {"phases": ["drilling", "logging"]},
+    "environment": {"environments": ["normal", "hthp"]}
+  }
+}

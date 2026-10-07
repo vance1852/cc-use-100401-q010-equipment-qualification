@@ -1,0 +1,14 @@
+{
+  "protocol_id": "xuanji-env-qual",
+  "protocol_version": 3,
+  "design_version_id": "xuanji-dv-4",
+  "test_site": "青岛国家深海装备试验池",
+  "tested_at": "2026-06-15T08:30:00Z",
+  "capability_results": [
+    {"capability": "water_depth", "outcome": "pass", "demonstrated": {"max_water_depth_m": "3200"}},
+    {"capability": "temperature", "outcome": "pass", "demonstrated": {"min_temperature_c": "-25", "max_temperature_c": "160"}},
+    {"capability": "pressure", "outcome": "pass", "demonstrated": {"max_pressure_mpa": "150"}},
+    {"capability": "phase", "outcome": "pass", "demonstrated": {"phases": ["drilling", "logging", "completion"]}},
+    {"capability": "environment", "outcome": "pass", "demonstrated": {"environments": ["normal", "hthp"]}}
+  ]
+}
